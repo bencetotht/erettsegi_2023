@@ -192,3 +192,47 @@ Dobozmodell:
 - `...HATÖBB()` függvények esetén a kritériumok között mindig **ÉS** kapcsolat van
 
 ## Adatbázis-kezelés
+### Alapfogalmak
+> **adatbázis:** valóság egy szeletéről szóló ismereteket egymással logikai kapcsolatban álló adattáblákban tároljuk
+
+> **adattáblák**: speciális táblázatok, a táblázat minden oszlopában azonos szerepű értékek találhatók, az egyes sorok értékei összefüggésben, más néven relációban vannak egymással
+
+> **mező**: adattábla egy oszlopa
+> **rekord**: adattábla egy sora
+> **adat**: a rekord egy mezőjének értéke
+
+>**kulcs**: az a mező (tulajdonságot), amelynek értéke meghatározza a rekord többi adatát
+- kulcs értéke az oszlopon belül egyedi
+> **elsődleges kulcs:** kiválasztott kulcsjelölt
+> **összetett kulcs:** több mezőt felhasználva alakítunk ki kulcsot
+- egyik mezőt sem választhatjuk önmagában kulcsnak
+> **idegen kulcs**: az a mezőt, amellyel egy másik tábla elsődleges kulcsára hivatkozunk, ezzel teremtjük meg két adattábla egy a többhöz típusú kapcsolatát
+> **kapcsolótábla**: az az adattábla, amely két olyan adattáblát köt össze, melyek között több a többhöz kapcsolat van
+- ennek a két táblának az elsőleges kulcsa a kapcsolótáblában idegen kulcsként jelenik meg
+
+### Adatbázis tervezés
+Relációs adatbázis tervezéséhez meg kell határoznunk, mely adatok vannak relációban, azaz összefüggésben egymással.
+- **Az azonos csoportba tartozó adatok alkotnak egy adattáblát**
+- kell, hogy legyen **legalább egy kitüntetett szerepű tulajdonság,** amelyet **azonosítónak,** más néven **kulcsnak** nevezünk -> az adatsor összes adatát meghatározza
+- a kulcs mezőben minden érték pontosan egyszer szerepel, az idegen kulcs mezőben pedig többször is előfordulhat
+	- Ha az idegen kulcs mezőben nem lehet ismétlődés, akkor a kapcsolatot egy az egyhez (1:1), ha lehet, akkor egy a többhöz (1:N) típusúnak nevezzük
+
+#### Típusok
+| |**Típusnév**|**Magyarázat**|
+|:-:|:-:|:-:|
+|szöveg|_varchar (n)_|Az _n_ érték a mezőben eltárolható karakterek száma.|
+|egész szám|_int_|4 bájtos egész, −231 … 231 − 1 (létezik 1, 2, 3 és 8 bájtos egész is)
+|valós szám|_double_|Használata ritkán indokolt, mert általában azonos nagyságrendű, adott tizedesjegy pontosságú számokat tárolunk.
+|decimális|_decimal (m, n)_|Az _m_ a szám számjegyeinek száma, _n_ pedig azt adja meg, hogy az _m_ darab számjegyből hány kerül a tizedesjel mögé.
+|dátum|_date_|Alakja: YYYY-MM-DD; 1000-01-01 és 9999-12-31 között vehet fel értékeket.
+|idő|_time_|Alakja alapvetően: hh:mm:ss.|
+|dátumidő|_datetime_|Alakja: YYYY-MM-DD hh:mm:ss.|
+|logikai|_tinyint(1)_|Beállításkor boolean-ként adhatjuk meg, de a valóságban egész számként van tárolva; 0 a hamis érték, minden más az igaznak felel meg. Ha a true és a false értékeket használjuk, 1 és 0 kerül rögzítésre.
+|számláló|_int auto_increment_|Értéke automatikusan növekszik, nem változtatható.|
+
+#### Joinok
+|JOIN|HASZNÁLAT|
+|:-:|:-:|
+|`INNER JOIN`|metszet|
+|`LEFT JOIN`|bal oldali táblába lévőket|
+|`RIGHT JOIN`|jobb oldali táblába lévőket|
