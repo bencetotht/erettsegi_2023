@@ -164,4 +164,31 @@ Dobozmodell:
 - margin: szegély és a többi elem közötti térköz
 
 ## Táblázatkezelés 
+#### Cellák tartalma
+- **szám**: 
+	- **számformátum**: tizedesjegyeinek száma változtatható a megjelenítésben
+	- **százalékformátum**: a szám százszorosát jeleníti meg, és azt a százalék (%) jellel egészíti ki
+	- **dátum- és időformátum**: a szám egészrészét dátumként, a törtrészét pedig időként jeleníti meg (1900. január 1 a kezdő)
+	- **pénznemformátum**: a számot kiegészíti a pénznem jelével, amely a mértékegységhez hasonlóan jelenik meg
+	- **egyéni formátum**
+- **szöveg**
+- **logikai érték** (IGAZ / HAMIS)
+#### Cellahivatkozások
+> **Relatív cellahivatkozás:** A kifejezés másolásakor a másolás irányának megfelelően módosul
+> **Abszolút cellahivatkozás**: A kifejezés másolásakor a cellahivatkozás nem változik, a táblázatkezelő program a cella tényleges helyét tárolja
+> **Vegyes** **cellahivatkozás:** A kifejezés másolásakor a cellahivatkozásban az egyik koordináta abszolút, a másik relatív. A koordináta rögzítésétől függően vagy a vízszintes, vagy a függőleges irányú elmozdulásnak megfelelően változik a hivatkozás.
+
+### Függvények
+- újraszámítást magunk is kezdeményezhetjük az F9 gomb megnyomásával
+- függvények beszúrását függvényszerkesztő funkció segítifüggvények beszúrását függvényszerkesztő funkció segíti
+- kategóriák:
+	- statisztikai
+	- matematikai / trigonometriai
+	- dátum és idő
+	- logikai
+	- keresési és hivatkozási
+	- szöveg
+	- adatbázis
+- `...HATÖBB()` függvények esetén a kritériumok között mindig **ÉS** kapcsolat van
+
 ## Adatbázis-kezelés
