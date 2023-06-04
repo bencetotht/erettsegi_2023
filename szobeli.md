@@ -47,6 +47,55 @@
 - **többhasábos** megoldással főleg újságokban találkozunk, ahol a szedéstükör olyan széles, hogy nehézkes a szemünkkel követni
 - **Több szakaszra bontott dokumentum** esetén az élőfejet és az élőlábat beállíthatjuk szakaszonként, de lehetőségünk van arra is, hogy egy adott szakasz beállításai megegyezzenek az előzővel
 ## Számítógépes grafika és képszerkesztés
+### **Pixelgrafika:**
+> **Pixel vagy raszter-grafikus fájl:** egyes képpontok színkódjainak felsorolása
+-   **1 képpont tárolása:** minden színre (red, blue, green) 8 bitnyi információval 256 különféle értéket vehet fel, így összesen 24 bit-en tárol 1 képpont információját
+
+-   **Képnézegető (viewer) programok formátumai:**
+	-   **JPG:** veszteség mentes képtömörítési eljárás, a legelterjedtebb formátum
+	-   **PNG:** a PNG-hez hasonló veszteség mentes tömörítési eljárás, de JPG-vel ellentétben egy pixel információit nem 24, hanem 32 biten tárolja, mivel az RGB színkód mellett képes tárolni egyes képpontok átlászóságát is
+	-   **GIF:** az egyik legrégebbi kepkiterjesztés, ami 256*256*256 színből egy 256 színből álló palettára képzi. Képes mozgóképek tárolására. A GIF ellenfele lehet az **APNG** ami túllép a GIF hiányosságain 
+	-   **TIFF:** többrétegű képek leírására használt formátum. Elterjedtebb a használata a nyomdászatban és a GIS-rendszerekben (földrajzi információs rendszer)
+
+- **Szerkesztő programok formátumai:**
+	-   Ilyen formátumok tárolják az adott kép rétegeit, kijelöléseit, maskjait
+	-   A GIMP formátuma az **XCF** a Photoshopé **PSD** vagy PSDX
+	-   Ezek a fájlokat célszerű a saját szerkesztőprogramjukkal megnyitni
+
+- **Fényképezőgép saját formátuma:**
+	-   Ebbe a formátumba menti a fényképezőgép a fájlt exponáláskor
+	-   Közös nevük a **RAW** (nyers)
+	-   Rengeteg információt tartalmaznak, ami a képeken nem is látszódik pl.: kép világosításával láthatóvá válnak a képen addig egyöntetű sötét feketének tűnő területek részletei
+	-   Ezek megnyitására általában általános célú megtekintő nem használható, hanem képszerkesztők
+	-   Utólagos munkát Adobe Lightroommal vagy ennek ingyenes alternatívájával a Darktable-el lehet
+	-   A lényegesen bonyolultabb utómunkára van szükség akkor használják az Adobe Photoshopot vagy ennek ingyenes alternatíváját a GIMPet 
+
+- **Mire használják a pixelgrafikus szerkesztőprogramokat:**
+-   A pixelgrafikus képek utólagos módosításához:
+	-   Egyes részek átrajzolása
+	-   Színek megváltoztatása
+	-   Képrészletek cseréje
+	-   Eltűntetés
+	-   Az alkalmazás szűrőivel végzett módosítások
+	-   Retusálás
+-   Régen használták képregényfigurák, művészi grafikák és festmények ábrázolásához
+
+### Vektorgrafika
+> **vektorgrafika**: központi fogalma az alakzat, más néven geometriai elem. 
+> Az alakzatok alaptulajdonságokkal rendelkeznek. Ilyen például a méret, a hely, a szín, a kitöltési tulajdonságok, az átlátszóság, a körvonal stb. A vektorgrafikai programok az ábrák elkészítését alakzatok létrehozásával, tulajdonságainak módosításával, célszerű átalakításával és együttes felhasználásával teszik lehetővé
+
+- úgy nagyíthatjuk, hogy pixelesedés nem látható (fontos: térkép, a navigáció, a műszaki terv, egy logó)
+- vektorgrafikai eszközök a legtöbb olyan szoftverben rendelkezésre állnak, ahol szükség van grafikai elemekre (pl word, powerpoint)
+	- Irodai programok: *Microsoft Word és PowerPoint, LibreOffice Writer, Impress, Draw*
+	-   Speciális célú programok: *GeoGebra, Euklides, Euler3D, Blender*
+	-   Önálló vektorgrafikai szerkesztőprogramok: *Inkscape, CorelDraw, Adobe Illustrator*
+
+SVG fájlok:
+- kód első sora a használt XML verziószámát adja meg, amelyre a böngészőnek van szüksége
+- tartalmát az `<svg>` jelölőben adjuk meg
+
+> **Moaré:** óriásplakátokon, a digitális fényképeken, a vonalas és a szabályos mintájú ábrákon megjelenő nem várt mintázatok
+
 ## Bemutatókészítés
 Az előadásunkat kísérő bemutatók készítésekor
 -   használjunk minél nagyobb képeket;
