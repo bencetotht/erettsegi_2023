@@ -5,16 +5,16 @@
 	- **talpas betűk**: vonalvastagsága változó, a szárak talpakban végződnek
 	- **talp nélküli betűtípusok**: nem rendelkeznek talpakkal, vonalvastagságuk sok esetben állandó
 	- **dísz- vagy reklámbetűk**
-- Egy adott betűtípus változatait betűstílusoknak nevezzük (félkövér, dőlt, félkövér dőlt, aláhúzott, felső index, kiskapitális)
-- A betűk méretének egysége a pont
+- Egy adott betűtípus változatait **betűstílusoknak** nevezzük *(félkövér, dőlt, félkövér dőlt, aláhúzott, felső index, kiskapitális)*
+- A betűk **méretének** egysége a pont
 
 - A bekezdéseket a bekezdésjelek (¶) határolják
--  leggyakoribb bekezdésformátumok: igazítás, behúzás, térköz és sorköz
+-  leggyakoribb bekezdésformátumok:
 > **igazítás**: a bekezdés sorainak egymáshoz viszonyított helyzete
 > **behúzás**: a bekezdés sorainak távolsága a margótól
 > **térköz**: a bekezdés távolsága az előző, illetve következő bekezdéstől
 > **sorköz**: a bekezdés sorainak távolsága
-- egyéb formázások: pl iniciálé, háttérszín, szegély
+- egyéb formázások: *pl. iniciálé, háttérszín, szegély*
 
 ### Táblázatok és tabulátorok
 - táblázatok formázása: szélesség, magasság, szegélyek, háttészín, cellák tartalmának igazítása, margók, cellaköz, cellák felosztása / egyesítése
@@ -53,12 +53,12 @@
 
 -   **Képnézegető (viewer) programok formátumai:**
 	-   **JPG:** veszteség mentes képtömörítési eljárás, a legelterjedtebb formátum
-	-   **PNG:** a PNG-hez hasonló veszteség mentes tömörítési eljárás, de JPG-vel ellentétben egy pixel információit nem 24, hanem 32 biten tárolja, mivel az RGB színkód mellett képes tárolni egyes képpontok átlászóságát is
+	-   **PNG:** a PNG-hez hasonló veszteség mentes tömörítési eljárás, de JPG-vel ellentétben egy pixel információit nem 24, hanem 32 biten tárolja, mivel az RGB színkód mellett **képes tárolni egyes képpontok átlászóságát** is
 	-   **GIF:** az egyik legrégebbi kepkiterjesztés, ami 256*256*256 színből egy 256 színből álló palettára képzi. Képes mozgóképek tárolására. A GIF ellenfele lehet az **APNG** ami túllép a GIF hiányosságain 
 	-   **TIFF:** többrétegű képek leírására használt formátum. Elterjedtebb a használata a nyomdászatban és a GIS-rendszerekben (földrajzi információs rendszer)
 
 - **Szerkesztő programok formátumai:**
-	-   Ilyen formátumok tárolják az adott kép rétegeit, kijelöléseit, maskjait
+	-   Ilyen formátumok **tárolják az adott kép rétegeit, kijelöléseit, maskjait**
 	-   A GIMP formátuma az **XCF** a Photoshopé **PSD** vagy PSDX
 	-   Ezek a fájlokat célszerű a saját szerkesztőprogramjukkal megnyitni
 
@@ -86,7 +86,7 @@
 
 - úgy nagyíthatjuk, hogy pixelesedés nem látható (fontos: térkép, a navigáció, a műszaki terv, egy logó)
 - vektorgrafikai eszközök a legtöbb olyan szoftverben rendelkezésre állnak, ahol szükség van grafikai elemekre (pl word, powerpoint)
-	- Irodai programok: *Microsoft Word és PowerPoint, LibreOffice Writer, Impress, Draw*
+	-   Irodai programok: *Microsoft Word és PowerPoint, LibreOffice Writer, Impress, Draw*
 	-   Speciális célú programok: *GeoGebra, Euklides, Euler3D, Blender*
 	-   Önálló vektorgrafikai szerkesztőprogramok: *Inkscape, CorelDraw, Adobe Illustrator*
 
@@ -97,6 +97,32 @@ SVG fájlok:
 > **Moaré:** óriásplakátokon, a digitális fényképeken, a vonalas és a szabályos mintájú ábrákon megjelenő nem várt mintázatok
 
 ## Bemutatókészítés
+### Alapok
+- **Érvek mellette**
+	- könnyebb befogadni képi információt, mint szöveget
+	- a vetítés érdekesebbé teheti az előadást
+	- hosszabb előadásoknál segítséget jelenthet a vetítőnek
+- **Érvek ellene**
+	- túlhasználás: szükségtelenül készítünk bemutatót
+	- lassú és fájdalmassá válhat
+
+### Előadás felépítése
+- **előadás megtervezése**: 
+	- előadóra figyeljen a közönség, a bemutató csak segítse az előadást
+	- elmondott szöveg vázlatának kidolgozása
+- **képeket kísérő szövegek**
+	- gyakran nem szükséges szöveget írni
+	- hangsúly legyen a képeken
+	- hosszabb témáknál egy két szóval segíthető a közönség számára az előadás követése
+	- egész mondatokat csak kivételes esetekben pl idézeteknél
+	- olyan szöveget írjunk, amit nem olvasunk fel
+	- szövegméret mindenki számára látható legyen
+- **animációk**
+	- nem szükségesek, könnyen lehetnek károsak
+	- nélkülük is értelmezhető legyen a dia
+- egyéb kiegészítőknél gondoljuk át, valóban **szükségesek-e**
+
+### Konklúzió
 Az előadásunkat kísérő bemutatók készítésekor
 -   használjunk minél nagyobb képeket;
 -   ne írjuk ki azt, amit el is mondhatunk;
@@ -105,7 +131,7 @@ Az előadásunkat kísérő bemutatók készítésekor
 -   használjunk nagy és jól olvasható formájú betűket;
 -   ne olvassuk fel azt, amit kiírtunk, mert zavaró;
 -   legyünk szűkmarkúak az animációkkal;
--   legyen tervünk arra az esetre, ha a vetítésre használt gép nem jeleníti meg megfelelően a bemutatónkat
+-   legyen tervünk arra az esetre, ha a vetítésre használt gép nem jeleníti meg megfelelően a bemutatónkat (pl pdf)
 
 ## Publikálás a világhálón
 ### HTML5 alapstruktúra
@@ -113,7 +139,6 @@ Az előadásunkat kísérő bemutatók készítésekor
 - következő sorba kerül a `<html>` tag, amely jelzi a böngészőnek, hogy egy HTML-dokumentumról van szó
 	- `lang` paraméterben az oldal nyelvét kell megadnia – magyar nyelvű tartalom esetén a `hu` értéket, angol nyelvű tartalom esetén pedig az `en` értéket
 - `<title>` tagben az oldal címét kell megadni
-- `<body></body>` tagek közti rész a **dokumentumtörzs**
 A teljes HTML-dokumentum `<html></html>` tartalma a **fejre** `<head></head>` és a **törzsre** `<body></body>` tagolódik
 - bekezdések kialakításához a sorok elejére a `<p>`, a sorok végére a `</p>` taget kell elhelyezni
 - hat címsorszintet használhatunk: 
@@ -201,12 +226,12 @@ Dobozmodell:
 > **rekord**: adattábla egy sora
 > **adat**: a rekord egy mezőjének értéke
 
->**kulcs**: az a mező (tulajdonságot), amelynek értéke meghatározza a rekord többi adatát
+>**kulcs**: az a mező (tulajdonság), amelynek értéke meghatározza a rekord többi adatát
 - kulcs értéke az oszlopon belül egyedi
 > **elsődleges kulcs:** kiválasztott kulcsjelölt
 > **összetett kulcs:** több mezőt felhasználva alakítunk ki kulcsot
 - egyik mezőt sem választhatjuk önmagában kulcsnak
-> **idegen kulcs**: az a mezőt, amellyel egy másik tábla elsődleges kulcsára hivatkozunk, ezzel teremtjük meg két adattábla egy a többhöz típusú kapcsolatát
+> **idegen kulcs**: az a mező, amellyel egy másik tábla elsődleges kulcsára hivatkozunk, ezzel teremtjük meg két adattábla egy a többhöz típusú kapcsolatát
 > **kapcsolótábla**: az az adattábla, amely két olyan adattáblát köt össze, melyek között több a többhöz kapcsolat van
 - ennek a két táblának az elsőleges kulcsa a kapcsolótáblában idegen kulcsként jelenik meg
 
