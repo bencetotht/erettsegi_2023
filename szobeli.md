@@ -15,6 +15,14 @@
 > **térköz**: a bekezdés távolsága az előző, illetve következő bekezdéstől
 > **sorköz**: a bekezdés sorainak távolsága
 - egyéb formázások: *pl. iniciálé, háttérszín, szegély*
+- Listák:
+	- Ugyanaz a listajel
+	- számozás:
+		- betűk
+		- római számok
+		- arab számok
+		- stb.
+	- Többszintű lista
 
 ### Oldalbeállítások, fájlműveletek
 - nyelvi beállítások:
@@ -28,6 +36,28 @@
 
 ### Táblázatok és tabulátorok
 - táblázatok formázása: szélesség, magasság, szegélyek, háttészín, cellák tartalmának igazítása, margók, cellaköz, cellák felosztása / egyesítése
+- tabulátorok: igazítás, kitöltés
+
+### Képek, szövegdobozok:
+- Képek beállításai:
+	- körbefuttatás szöveggel
+	- elhelyezés szöveg elé vagy mögé
+	- Igazítás
+	- Kép és szöveg távolsága
+	- Átméretezés
+	- Elforgatás
+- Szövegdobozok beállításai:
+	- margó
+	- Igazítás
+
+### Alakzatok:
+- Vektorgrafikus ábrák
+- Beállításaik:
+	- kitöltés
+	- körvonal
+	- szöveg hozzáadás
+	- csoportba foglalás
+	- megjelenésének módosítása: csomópontok mozgatása
 
 ### Kördokumentum
 > **kördokumentum**: több címzett számára lényegében azonos tartalommal elkészített, de egyedi adatokkal kiegészített dokumentumhalmaz
