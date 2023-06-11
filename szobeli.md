@@ -16,9 +16,6 @@
 > **sorköz**: a bekezdés sorainak távolsága
 - egyéb formázások: *pl. iniciálé, háttérszín, szegély*
 
-### Táblázatok és tabulátorok
-- táblázatok formázása: szélesség, magasság, szegélyek, háttészín, cellák tartalmának igazítása, margók, cellaköz, cellák felosztása / egyesítése
-
 ### Oldalbeállítások, fájlműveletek
 - nyelvi beállítások:
 	- nyelvi ellenőrzés
@@ -28,6 +25,9 @@
 	- tájolása
 	- margók nagysága
 > **szövegtükör**: margók által határolt területet
+
+### Táblázatok és tabulátorok
+- táblázatok formázása: szélesség, magasság, szegélyek, háttészín, cellák tartalmának igazítása, margók, cellaköz, cellák felosztása / egyesítése
 
 ### Kördokumentum
 > **kördokumentum**: több címzett számára lényegében azonos tartalommal elkészített, de egyedi adatokkal kiegészített dokumentumhalmaz
@@ -46,6 +46,7 @@
 - **az oldal jellemzőit** _–_ például margók, tájolás, élőfej, élőláb, oldalszámozás – szakaszonként külön-külön is beállíthatjuk
 - **többhasábos** megoldással főleg újságokban találkozunk, ahol a szedéstükör olyan széles, hogy nehézkes a szemünkkel követni
 - **Több szakaszra bontott dokumentum** esetén az élőfejet és az élőlábat beállíthatjuk szakaszonként, de lehetőségünk van arra is, hogy egy adott szakasz beállításai megegyezzenek az előzővel
+
 ## Számítógépes grafika és képszerkesztés
 ### **Pixelgrafika:**
 > **Pixel vagy raszter-grafikus fájl:** egyes képpontok színkódjainak felsorolása
@@ -53,12 +54,12 @@
 
 -   **Képnézegető (viewer) programok formátumai:**
 	-   **JPG:** veszteség mentes képtömörítési eljárás, a legelterjedtebb formátum
-	-   **PNG:** a PNG-hez hasonló veszteség mentes tömörítési eljárás, de JPG-vel ellentétben egy pixel információit nem 24, hanem 32 biten tárolja, mivel az RGB színkód mellett **képes tárolni egyes képpontok átlászóságát** is
-	-   **GIF:** az egyik legrégebbi kepkiterjesztés, ami 256*256*256 színből egy 256 színből álló palettára képzi. Képes mozgóképek tárolására. A GIF ellenfele lehet az **APNG** ami túllép a GIF hiányosságain 
+	-   **PNG:** a PNG-hez hasonló veszteség mentes tömörítési eljárás, de JPG-vel ellentétben egy pixel információit **nem 24**, **hanem 32** biten tárolja, mivel az RGB színkód mellett **képes tárolni egyes képpontok átlászóságát** is
+	-   **GIF:** az egyik legrégebbi kepkiterjesztés, ami 256\*256\*256 színből egy 256 színből álló palettára képzi. Képes mozgóképek tárolására. A GIF ellenfele lehet az **APNG** ami túllép a GIF hiányosságain 
 	-   **TIFF:** többrétegű képek leírására használt formátum. Elterjedtebb a használata a nyomdászatban és a GIS-rendszerekben (földrajzi információs rendszer)
 
 - **Szerkesztő programok formátumai:**
-	-   Ilyen formátumok **tárolják az adott kép rétegeit, kijelöléseit, maskjait**
+	-   Ilyen formátumok **tárolják az adott kép rétegeit, kijelöléseit, maskjait** veszteségmentesen
 	-   A GIMP formátuma az **XCF** a Photoshopé **PSD** vagy PSDX
 	-   Ezek a fájlokat célszerű a saját szerkesztőprogramjukkal megnyitni
 
@@ -82,7 +83,7 @@
 
 ### Vektorgrafika
 > **vektorgrafika**: központi fogalma az alakzat, más néven geometriai elem. 
-> Az alakzatok alaptulajdonságokkal rendelkeznek. Ilyen például a méret, a hely, a szín, a kitöltési tulajdonságok, az átlátszóság, a körvonal stb. A vektorgrafikai programok az ábrák elkészítését alakzatok létrehozásával, tulajdonságainak módosításával, célszerű átalakításával és együttes felhasználásával teszik lehetővé
+> Az alakzatok alaptulajdonságokkal rendelkeznek. Ilyen például a **méret, a hely, a szín, a kitöltési tulajdonságok, az átlátszóság, a körvonal** stb. A vektorgrafikai programok az ábrák elkészítését alakzatok létrehozásával, tulajdonságainak módosításával, célszerű átalakításával és együttes felhasználásával teszik lehetővé
 
 - úgy nagyíthatjuk, hogy pixelesedés nem látható (fontos: térkép, a navigáció, a műszaki terv, egy logó)
 - vektorgrafikai eszközök a legtöbb olyan szoftverben rendelkezésre állnak, ahol szükség van grafikai elemekre (pl word, powerpoint)
@@ -90,7 +91,7 @@
 	-   Speciális célú programok: *GeoGebra, Euklides, Euler3D, Blender*
 	-   Önálló vektorgrafikai szerkesztőprogramok: *Inkscape, CorelDraw, Adobe Illustrator*
 
-SVG fájlok:
+**SVG fájlok:**
 - kód első sora a használt XML verziószámát adja meg, amelyre a böngészőnek van szüksége
 - tartalmát az `<svg>` jelölőben adjuk meg
 
@@ -177,11 +178,11 @@ Táblázat:
 - beágyazott `<style>`
 CSS-szabály két részből áll
 - **kijelölő** / szelektor: segítségével kijelölheti azokat az elemeket, amelyeket formázni szeretne
+	- típus kijelölők, osztály kijelölők (.), azonosító kijelölő (#)
 - **deklarációs blokk**: kapcsos zárójelek között helyezkedik el, bennbe **deklarációk** 
 	- **tulajdonságok**  és azok **értékei**
 
 - színeket lehet rgb alapján, angol színnevekkel, HTML színkódokkal
-- típus kijelölők, osztály kijelölők, azonosító kijelölő
 
 Dobozmodell:
 - width / height: tartalom szélessége / magassága
