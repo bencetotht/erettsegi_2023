@@ -122,6 +122,7 @@
 	- nem szükségesek, könnyen lehetnek károsak
 	- nélkülük is értelmezhető legyen a dia
 - egyéb kiegészítőknél gondoljuk át, valóban **szükségesek-e**
+### 
 
 ### Konklúzió
 Az előadásunkat kísérő bemutatók készítésekor
@@ -133,6 +134,23 @@ Az előadásunkat kísérő bemutatók készítésekor
 -   ne olvassuk fel azt, amit kiírtunk, mert zavaró;
 -   legyünk szűkmarkúak az animációkkal;
 -   legyen tervünk arra az esetre, ha a vetítésre használt gép nem jeleníti meg megfelelően a bemutatónkat (pl pdf)
+
+### Önálló feldolgozásra szánt bemutatók:
+- Kisebb képek használata
+- Amit elmondanánk azt ki kell írni
+- A betűk lehetnek kisebb méretűek
+- Hosszabb és bonyolultabb animációk használata sem probléma
+- Hivatkozások használata a bemutató szövegeiben
+- Médiaelemek használata
+- Címdia használata
+- Köszönődia használata (érdemes elérhetőséget is írni)
+- A bemutató lehet hosszab kiterjedésű is
+- A bemutató megértését segítő elemek használata:
+	- Vizulális szerkezet kialakítása:
+		- egyes fejezetek, témák diáinak azonos háttér
+		- új betűtípust az új fejezetekben
+		- a bemutatóban előzőleg már megismert képeket – például a fejezetek nyitóképei szerepelhetnek kicsiben a „tartalomjegyzékben”, vagy a fontosabb diák megjelenhetnek újra az összefoglalás részeként
+		- fejezetcím a láblécben
 
 ## Publikálás a világhálón
 ### HTML5 alapstruktúra
@@ -183,11 +201,90 @@ CSS-szabály két részből áll
 	- **tulajdonságok**  és azok **értékei**
 
 - színeket lehet rgb alapján, angol színnevekkel, HTML színkódokkal
+#### Tulajdonságok öröklődése
+- Az egymásba ágyazott `HTML` cimkék között ős-leszármazott kapcsolat áll fenn
+- Például a `<body>` tagben található bármelyik elem a `body` tag gyermeke amivel néhány tulajdonságát örökli
+- *Öröklődő tulajdonságok:*
+	- betűtípus
+	- betűméret
+	- szín
+	- Betűstílus
+	- betűvastagság
+- *Nem öröklődő tulajdonságok:* 
+	- szegély
+	- szélesség
+	- magasság
+#### Kijelölők rangsorolása:
+- A megegyező egyedigésű kijelölőknél számít a deklaráció sorrendje, amivel egy előző tulajdonságot felűl tudunk írni pl.: `h1{color : blue;} h1{color : red}`
+- Ha a kijelölők egyedisége nem egyenlő akkor az adott elemre a legmagasabb egyediséggel rendelkező selector deklarációja fog érvényesülni
+- *Kijelölők rangsora:*
+	- típus kijelölés (ez a legalacsonyabb)
+	- osztály szintű kijelölés
+	- típus és osztály kijelölés együttes használata
+	- Kijelölés azonosítóval
+	- Típussal és azonosítóval való kijelölés
+	- Inline stílus megadás (ez a legmagasabb)
+- A sorrendet felül tudjuk írni a `! important` kulcsszóval amivel az adott deklaráció fog érvényesülni minden esetben
+- *Használata* `h1 {color : blue ! important}`
+#### Blokkszintű és sorbeli elemek:
+- *blokkszintű elemek:*
+	- Az előző elem alatt kezdődnek
+	- Külön blokkot alkotnak
+	- *ilyen elemek:*
+		- `<p>`
+		- `<li>`
+		- `<div>`
+- *Sorbeli (inline) elemek:*
+	- Soron belül jelennek meg
+	- Nem alkotnak külön blokkot
+	- *ilyen elemek:*
+		- `<b>`
+		- `<i>`
+#### Blokkszintű és sorbeli elemek egyásba ágyazása:
+- A blokkszintű elemekbe ágyazhazók:
+	- blokkszintű elemek
+	- inline elemek
+- Az inline elemekbe csak inline elemek ágyazhatók kivétel az `<a>` tag, ebbe ágyazható blokkszintű elem is
+
+#### Csopotosításuk:
+- *Blokkszintű elemek csoportosítása:*
+	- `<div>` : általános célú blokkszintű csoportosító elem
+- *Sorbeli elemek csoportosítása:*
+	- `<span>` : általános célú inline csoportosító elem
+		- Használata: Egy soron belül több szót vagy karaktert ugyanúgy formázzunk
 
 Dobozmodell:
-- width / height: tartalom szélessége / magassága
-- padding: belső margó (tartalom és szegély között)
-- margin: szegély és a többi elem közötti térköz
+- *width / height:* 
+	- tartalom szélessége / magassága
+	- Megadható minimum és maximum magasság is
+- *padding:* belső margó (tartalom és szegély között)
+- *margin:* szegély és a többi elem közötti térköz
+- *CSS-szabvány:* A szebb megjelenítés miatt az egymás alatti blokkoknak az alsó és felső margója összevonásra kerül olyan módon, hogy a nagyobb értékű lép érvénybe
+- *border*:
+	- Szegély
+	- Tulajdonságai:
+		- vastagsága
+		- stílusa:
+			- solid (folytonos)
+			- dotted (pontozott)
+			- dashed (szaggatott)
+			- doudle (dupla)
+		- színe
+- *border-radius:*
+	- Megadja a szegély lekerekítését
+	- képpontban vagy százalékban adható meg
+- *text-align*
+	- szöveg igazítása
+	- Beállítása:
+		- left (bal)
+		- center (közép)
+		- right (jobb)
+		- justify (sorkizárt)
+- *Blokk igazítása:*
+	- A `margin` beállításával lehetséges
+	- `margin-right: auto` (balra)
+	- `margin-left: auto` (jobbra)
+	- `margin-left auto; margin-right: auto` (középre)
 
 ## Táblázatkezelés 
 #### Cellák tartalma
