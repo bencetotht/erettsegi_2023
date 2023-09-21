@@ -36,6 +36,7 @@
 
 ### Táblázatok és tabulátorok
 - táblázatok formázása: szélesség, magasság, szegélyek, háttészín, cellák tartalmának igazítása, margók, cellaköz, cellák felosztása / egyesítése
+<<<<<<< Updated upstream
 - tabulátorok: igazítás, kitöltés
 
 ### Képek, szövegdobozok:
@@ -58,6 +59,9 @@
 	- szöveg hozzáadás
 	- csoportba foglalás
 	- megjelenésének módosítása: csomópontok mozgatása
+=======
+- képeknél igazítás lehet több féle ponthoz
+>>>>>>> Stashed changes
 
 ### Kördokumentum
 > **kördokumentum**: több címzett számára lényegében azonos tartalommal elkészített, de egyedi adatokkal kiegészített dokumentumhalmaz
@@ -78,7 +82,7 @@
 - **Több szakaszra bontott dokumentum** esetén az élőfejet és az élőlábat beállíthatjuk szakaszonként, de lehetőségünk van arra is, hogy egy adott szakasz beállításai megegyezzenek az előzővel
 
 ## Számítógépes grafika és képszerkesztés
-### **Pixelgrafika:**
+### Pixelgrafika
 > **Pixel vagy raszter-grafikus fájl:** egyes képpontok színkódjainak felsorolása
 -   **1 képpont tárolása:** minden színre (red, blue, green) 8 bitnyi információval 256 különféle értéket vehet fel, így összesen 24 bit-en tárol 1 képpont információját
 
@@ -154,6 +158,10 @@
 - egyéb kiegészítőknél gondoljuk át, valóban **szükségesek-e**
 ### 
 
+- Vizuális eszközök a szerkezet kialakítására
+	- egyes fejezetek diáinál azonos hátteret, amely eltér a többi fejezetétől
+
+
 ### Konklúzió
 Az előadásunkat kísérő bemutatók készítésekor
 -   használjunk minél nagyobb képeket;
@@ -189,6 +197,15 @@ Az előadásunkat kísérő bemutatók készítésekor
 	- `lang` paraméterben az oldal nyelvét kell megadnia – magyar nyelvű tartalom esetén a `hu` értéket, angol nyelvű tartalom esetén pedig az `en` értéket
 - `<title>` tagben az oldal címét kell megadni
 A teljes HTML-dokumentum `<html></html>` tartalma a **fejre** `<head></head>` és a **törzsre** `<body></body>` tagolódik
+- HTML-címkéket megjelenítés alapértelmezett módja szerint két csoportba lehet osztani (ezeket cssel lehet változtatni)
+	- **blokkszintű elemek**: az előző elem alatt, külön blokkban jelennek meg
+		- pl `p`, `li`
+	- **sorbeli** elemek: soron belül jelennek meg
+		- pl `b`, `i`
+- soron belüli elemek nem tartalmazhatnak blokkszintű elemeket kivéve `<a>`
+- csoportosítóelemek:
+	- `<div>` elem egy általános célú, **blokkszintű csoportosítóelem**, az ezzel körbezárt kód új blokkban fog megjelenni
+	- `<span>` elem pedig egy általános célú, **sorbeli csoportosítóelem**, pl egy soron belül több karaktert vagy szót ugyanúgy lehet formázni
 - bekezdések kialakításához a sorok elejére a `<p>`, a sorok végére a `</p>` taget kell elhelyezni
 - hat címsorszintet használhatunk: 
 	- legfelső (1-es szintű) címsor `<h1>`
@@ -202,7 +219,7 @@ A teljes HTML-dokumentum `<html></html>` tartalma a **fejre** `<head></head>` 
 - listaelem: `<li>`
 - sortörés: `<br>`
 - kép beillesztés: `<img>`
-- `<figure>` és `<figcaption>`
+- `<figure>` és `<figcaption>` (illusztráció)
 - hivatkozás: `<a>`
 - `<video>` és `<source>`
 - `<audio>` és `<source>`
@@ -224,13 +241,13 @@ Táblázat:
 - inline (elemközi stílus)
 - külön css fájl
 - beágyazott `<style>`
-CSS-szabály két részből áll
+CSS-szabály két részből áll:
 - **kijelölő** / szelektor: segítségével kijelölheti azokat az elemeket, amelyeket formázni szeretne
 	- típus kijelölők, osztály kijelölők (.), azonosító kijelölő (#)
 - **deklarációs blokk**: kapcsos zárójelek között helyezkedik el, bennbe **deklarációk** 
 	- **tulajdonságok**  és azok **értékei**
-
 - színeket lehet rgb alapján, angol színnevekkel, HTML színkódokkal
+<<<<<<< Updated upstream
 #### Tulajdonságok öröklődése
 - Az egymásba ágyazott `HTML` cimkék között ős-leszármazott kapcsolat áll fenn
 - Például a `<body>` tagben található bármelyik elem a `body` tag gyermeke amivel néhány tulajdonságát örökli
@@ -315,6 +332,21 @@ Dobozmodell:
 	- `margin-right: auto` (balra)
 	- `margin-left: auto` (jobbra)
 	- `margin-left auto; margin-right: auto` (középre)
+=======
+- méreteket lehet abszolút és relatív mértékkel
+- html dokumentumban **hierachikus** felépítés van:
+- szülő kapcsolatnál **öröklődnek** bizonyos stílus beállítások:
+	- **Öröklődő tulajdonság** például a *betűtípus, a betűméret, a szín, a betűstílus és a betűvastagság*
+	- **Nem öröklődik** a *szegély, a szélesség és a magasságbeállítás*
+- több kijelölőnél a későbbi lép érvénybe ha megegyezik az egyediségük
+	- típus - osztály  - elem + osztály - azonosító - elem + azonosító - inline
+	- a `! important` nagyobb prioritást ad
+#### Dobozmodell:
+- width / height: tartalom szélessége / magassága
+- padding: belső margó (tartalom és szegély között)
+- margin: szegély és a többi elem közötti térköz
+	- szebb megjelenítés miatt az egymás alatti blokkoknak az alsó és felső margója összevonásra kerül olyan módon, hogy a nagyobb értékű lép érvénybe
+>>>>>>> Stashed changes
 
 ## Táblázatkezelés 
 #### Cellák tartalma
@@ -324,16 +356,17 @@ Dobozmodell:
 	- **dátum- és időformátum**: a szám egészrészét dátumként, a törtrészét pedig időként jeleníti meg (1900. január 1 a kezdő)
 	- **pénznemformátum**: a számot kiegészíti a pénznem jelével, amely a mértékegységhez hasonlóan jelenik meg
 	- **egyéni formátum**
-- **szöveg**
+- **szöveg** (mindig balra igazítja)
 - **logikai érték** (IGAZ / HAMIS)
+
 #### Cellahivatkozások
 > **Relatív cellahivatkozás:** A kifejezés másolásakor a másolás irányának megfelelően módosul
 > **Abszolút cellahivatkozás**: A kifejezés másolásakor a cellahivatkozás nem változik, a táblázatkezelő program a cella tényleges helyét tárolja
 > **Vegyes** **cellahivatkozás:** A kifejezés másolásakor a cellahivatkozásban az egyik koordináta abszolút, a másik relatív. A koordináta rögzítésétől függően vagy a vízszintes, vagy a függőleges irányú elmozdulásnak megfelelően változik a hivatkozás.
 
 ### Függvények
-- újraszámítást magunk is kezdeményezhetjük az F9 gomb megnyomásával
 - függvények beszúrását függvényszerkesztő funkció segítifüggvények beszúrását függvényszerkesztő funkció segíti
+- újraszámítást magunk is kezdeményezhetjük az F9 gomb megnyomásával
 - kategóriák:
 	- statisztikai
 	- matematikai / trigonometriai
@@ -342,6 +375,8 @@ Dobozmodell:
 	- keresési és hivatkozási
 	- szöveg
 	- adatbázis
+	- *Pénzügyi, Műszaki vagy Web, stb...*
+- cellát /  cellatartományt el lehet nevezni, így könnyebben lehet rájuk hivatkozni függvényeknél
 - `...HATÖBB()` függvények esetén a kritériumok között mindig **ÉS** kapcsolat van
 
 ## Adatbázis-kezelés
@@ -360,7 +395,7 @@ Dobozmodell:
 > **összetett kulcs:** több mezőt felhasználva alakítunk ki kulcsot
 - egyik mezőt sem választhatjuk önmagában kulcsnak
 > **idegen kulcs**: az a mező, amellyel egy másik tábla elsődleges kulcsára hivatkozunk, ezzel teremtjük meg két adattábla egy a többhöz típusú kapcsolatát
-> **kapcsolótábla**: az az adattábla, amely két olyan adattáblát köt össze, melyek között több a többhöz kapcsolat van
+> **kapcsolótábla**: az az adattábla, amely két olyan adattáblát köt össze, melyek között több a többhöz kapcsolat van (tábla valamely rekordjához több rekord is tartozhat a másik táblában)
 - ennek a két táblának az elsőleges kulcsa a kapcsolótáblában idegen kulcsként jelenik meg
 
 ### Adatbázis tervezés
