@@ -1,0 +1,92 @@
+Táv (km)	Idő (perc)	Irány	Úttípus vagy név	Érdekes pontok		Távolság terv (km)	Rögzített távolság (km)	Rögzített idő (perc)	Átlagsebesség (km/h)
+0,0	1	enyhén balra északkeletre	szervizút	Dobogókői parkoló, Büfé & Grill
+0,1	1	egyenesen északnyugatra	szervizút	Információs tábla, dobogókői parkoló
+0,1	1	élesen jobbra keletre	Eötvös Loránd utca	Információs tábla, dobogókői parkoló
+0,1	1	enyhén balra északra	földút	Információs tábla, dobogókői parkoló
+0,2	2	egyenesen északra	gyalogút	Turistamúzeum - Báró Eötvös Loránd Menedékház, Báró Eötvös Loránd Turistaház Étterme
+0,2	3	jobbra keletre	gyalogút	Turista Múzeum, Báró Eötvös Loránd Menedékház
+0,2	3	egyenesen keletre	gyalogút	Turista Múzeum, Téry-emlékmű, Dobogó-kő, Báró Eötvös Loránd Menedékház
+0,2	3	egyenesen délkeletre	gyalogút
+0,3	4	balra északnyugatra	lépcső	Táltos Iskola kapu
+0,3	4	egyenesen északnyugatra	gyalogút	Táltos Iskola kapu
+0,3	4	élesen jobbra keletre	Thirring körút
+0,4	6	enyhén balra nyugatra	Thirring körút
+0,5	7	enyhén jobbra keletre	Thirring körút
+0,6	8	egyenesen északra	Thirring körút
+0,6	9	enyhén jobbra keletre	Thirring körút	Thirring-szikla
+0,7	10	enyhén jobbra északkeletre	gyalogút
+0,9	13	enyhén balra északnyugatra	gyalogút
+1,0	15	egyenesen délnyugatra	földút
+1,2	17	enyhén jobbra nyugatra	gyalogút	Nagyboldogasszony-forrás
+1,2	18	enyhén jobbra északra	gyalogút	Nagyboldogasszony-forrás
+1,4	21	egyenesen északnyugatra	gyalogút
+1,4	22	egyenesen nyugatra	földút
+1,5	23	egyenesen északnyugatra	földút
+1,6	25	egyenesen északra	gyalogút
+1,7	25	egyenesen északnyugatra	gyalogút
+1,7	26	egyenesen északnyugatra	gyalogút
+1,8	27	egyenesen északra	gyalogút
+1,8	28	jobbra északra	gyalogút
+1,9	29	enyhén balra nyugatra	gyalogút
+2,0	30	jobbra északra	gyalogút
+2,1	32	egyenesen északra	földút
+2,4	35	enyhén balra északnyugatra	Rám-hegyi út
+2,4	36	jobbra északkeletre	földút
+2,5	37	enyhén balra északra	gyalogút	Rám-hegy kapuja
+2,5	38	enyhén jobbra északra	gyalogút
+2,8	42	egyenesen nyugatra	gyalogút
+3,3	50	egyenesen északnyugatra	gyalogút
+3,4	51	élesen jobbra keletre	földút
+3,5	53	egyenesen északkeletre	gyalogút	Rám-szakadék tanösvény
+4,0	60	egyenesen északra	gyalogút
+4,0	61	egyenesen északra	gyalogút
+4,5	68	egyenesen északra	gyalogút
+4,5	68	enyhén jobbra északkeletre	gyalogút
+4,6	70	egyenesen északnyugatra	gyalogút
+4,8	73	enyhén jobbra északkeletre	gyalogút
+4,9	73	egyenesen keletre	gyalogút
+5,4	80	egyenesen északkeletre	gyalogút
+6,0	89	enyhén jobbra keletre	gyalogút
+6,0	90	jobbra délre	gyalogút
+6,4	97	enyhén jobbra nyugatra	gyalogút
+6,5	97	enyhén jobbra északnyugatra	gyalogút	Rám-szakadék (Pilisi vándorlás)
+6,6	100	egyenesen délnyugatra	gyalogút
+7,8	117	jobbra északnyugatra	gyalogút
+7,8	117	egyenesen északnyugatra	gyalogút
+7,8	118	egyenesen északnyugatra	gyalogút
+7,9	118	egyenesen nyugatra	lépcső
+7,9	119	egyenesen nyugatra	gyalogút
+8,0	120	egyenesen délnyugatra	földút	Rám-szakadék tanösvény
+8,2	123	enyhén balra délre	Rám-hegyi út
+8,2	123	enyhén jobbra délnyugatra	földút
+8,2	124	egyenesen nyugatra	gyalogút
+8,8	132	egyenesen délre	gyalogút
+9,2	138	egyenesen délkeletre	gyalogút
+9,7	146	egyenesen délkeletre	gyalogút
+10,0	150	egyenesen délkeletre	gyalogút
+10,1	152	egyenesen délkeletre	gyalogút
+10,2	153	egyenesen délkeletre	gyalogút
+10,3	154	egyenesen északkeletre	gyalogút
+10,3	155	jobbra délre	gyalogút	Tirts Rezső kilátó
+10,4	155	egyenesen délre	gyalogút
+10,5	158	egyenesen délre	gyalogút
+10,5	158	egyenesen délkeletre	gyalogút
+10,6	160	egyenesen keletre	gyalogút	Manréza
+10,7	160	enyhén jobbra délkeletre	gyalogút	Manréza
+10,7	160	egyenesen délkeletre	gyalogút	Manréza
+10,7	160	egyenesen délkeletre	gyalogút
+10,7	161	egyenesen délkeletre	gyalogút
+10,7	161	egyenesen délkeletre	gyalogút
+10,8	162	egyenesen keletre	gyalogút
+10,8	162	egyenesen délkeletre	gyalogút
+10,9	163	egyenesen délkeletre	gyalogút
+11,0	166	egyenesen keletre	gyalogút
+11,1	166	egyenesen keletre	gyalogút
+11,1	167	élesen jobbra délre	gyalogút	Turista Múzeum, Báró Eötvös Loránd Menedékház
+11,2	167	egyenesen délnyugatra	földút	Turistamúzeum - Báró Eötvös Loránd Menedékház, Báró Eötvös Loránd Turistaház Étterme
+11,2	168	jobbra nyugatra	Eötvös Loránd utca	Információs tábla, dobogókői parkoló
+11,2	169	egyenesen nyugatra	Téry Ödön út	Információs tábla, dobogókői parkoló
+11,3	170	egyenesen délnyugatra	lakóút	Dobogókői parkoló
+11,3	170	enyhén balra délkeletre	szervizút	Dobogókői parkoló
+11,3	170	egyenesen keletre	szervizút	Turista Büfé, palacsinta, lángos, dobogókői parkoló
+11,4	171			Dobogókői parkoló

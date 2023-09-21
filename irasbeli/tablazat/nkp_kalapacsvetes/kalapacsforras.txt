@@ -1,0 +1,13 @@
+﻿Helyezés	Név	Egyesület							Eredmény
+	Bödei Enikő	Szombathelyi SI	41,67	x	41,04	x	x	x			Nevezési szint a selejtezőben:	55,00
+	Csatári Dominika	VEDAC	51,75	50,60	49,08	x	x	x
+	Csatári Jázmin	VEDAC	57,92	58,75	58,90	60,54	58,84	60,36
+	Csernyik Dzsenifer	Pápai AC	46,27	45,03	45,14	x	x	x
+	Decsi Dorka	Dobó SE	37,98	41,63	41,06	x	x	x
+	Gergelics Cintia	Dobó SE	52,44	x	x	x	52,52	51,75
+	Gyurátz Réka	Dobó SE	68,44	x	68,48	x	66,89	67,79
+	Németh Zsanett	Dobó SE	57,51	62,66	x	60,50	60,61	62,30
+	Rajczi Bianka	Dobó SE	55,67	55,75	55,20	55,35	54,92	54,99
+	Viszkeleti Villő Anna	Dobó SE	x	x	59,04	59,56	x	x
+	Zimmermann Lili	Feketehegy SE	53,37	54,74	50,67	49,82	x	x
+	Zsigovics Panna	Feketehegy SE	50,40	50,25	53,36	x	52,08	52,65

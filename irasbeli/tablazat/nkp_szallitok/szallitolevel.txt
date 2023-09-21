@@ -1,0 +1,34 @@
+Üzlet sorszáma	Üzlet neve	x (m)	y (m)		Napi sorrend	Nevek	Táv (m)
+1	Telephely	-6890	-4890		1				Napi úthossz:
+2	El-Hordó	10612	9767		29				Legnagyobb táv:
+3	Foxi	1766	-8893		10				Üzletek között:
+4	Rézkatlan	7791	-620		19				Hányadik:
+5	Ama-tőr	-120	-7376		22				Karavándor
+6	Batiszt	-1827	-5652		24
+7	Bábel	7568	-4715		1
+8	Csigavér	10221	5907		13
+9	Hajtás	5347	3725		27
+10	TopRongy	-7349	1794		6
+11	Tör-Pék	8489	7261		26
+12	Vasi	-7856	5015		30
+13	IdeSüss	9949	1980		16
+14	Írókéz	-1629	2234		2
+15	Kistorkos	-3890	-6820		12
+16	KopaszTom	6052	10043		20
+17	RakpArt	-246	3559		1
+18	SzemPont	-3993	3658		24
+19	Telebendő	-5001	1904		22
+20	Épkézláb	-3108	7843		5
+21	Gondoldó	8672	6305		6
+22	Gyöngy-Ház	-5560	2524		4
+23	Kutyabaj	5369	-3261		1
+24	Karavándor	-5096	-4884
+25	Panyolai	9984	-1766
+26	Netmester	10230	10180
+27	Zár-Ba-Zár	2074	99
+28	Aranybánya	2819	409
+29	Dologidő	-6438	-6940
+30	Kulcsember	10545	-5980
+31	Ládafia	5003	-538
+32	Tájképész	-1952	2339
+33	Tekergő	-3817	10256
