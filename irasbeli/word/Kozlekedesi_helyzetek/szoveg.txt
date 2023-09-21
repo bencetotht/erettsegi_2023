@@ -1,0 +1,42 @@
+﻿Közlekedési helyzetek
+Közlekedési problémahelyzetek rendszerint útkereszteződésben, gyalogos átkelésnél alakulnak ki. Az áthaladást a kereszteződés típusa, szabályok és jelzések vagy rendőri irányítás határozza meg.
+Útkereszteződések
+Az útkereszteződés lehet egyenrangú útkereszteződés, jelzőtáblával szabályozott útkereszteződés vagy körforgalom.
+Egyenrangú útkereszteződés
+Egyenrangú útkereszteződés az, ahol nincs útburkolati jel, jelzőtábla, jelzőlámpa. A járművek áthaladását a jobbkéz-szabály határozza meg.
+A gyalogosoknak balról és jobbról érkező járművekre is kell számítaniuk, és a kanyarodó járművekre is figyelniük kell. Az ábrán a jobbkéz-szabály alkalmazására láthatsz példát.
+Jelzőlátáblákkal szabályozott útkereszteződés
+Elsőbbséget szabályozó jelzőtáblák: Általában a járművekre vonatkoznak, de jó, ha a gyalogosok is ismerik.
+Jelzőtáblával szabályozott útkereszteződés az, ahol útburkolati jelek, jelzőtáblák és gyakran jelzőlámpák is szabályozzák az áthaladást. 
+A jelzőlámpák hibája esetén a táblák szerint kell közlekedni. Az ábrán a vízszintes útvonalat „elsőbbségadás kötelező” jelzőtáblák védik, a másik útvonal alárendelt.
+Az „elsőbbségadás kötelező” jelzőtáblák biztosítják az elsőbbségi áthaladás jogát a kerékpársávon egyenesen haladó kerékpárosnak. A szemből érkező kerékpárosnak meg kell állnia a jelzőtáblánál, hogy elengedje a védett útvonalon haladót. A sarkon kis ívben, jobbra kanyarodó kerékpáros akadálytalanul haladhat, mert nem keresztezi az útját gyalogos vagy jármű.
+Körforgalom
+A körforgalomban a járművek jobbra kanyarodva körben haladnak át. Útburkolati jelek és jelzőtáblák szabályozzák a forgalmat. A gyalogosok csak a kijelölt gyalogátkelőhelyeken kelhetnek át.
+Elsőbbségadás szabálya
+Az elsőbbség az egymás útját keresztező gyalogos és jármű áthaladási sorrendjét jelenti. Akinek elsőbbsége van, az elsőként haladhat, keresztezheti a másik útját. Az úttesten áthaladó gyalogosnak elsőbbsége van a gépjárművekkel szemben:
+jelzőlámpás kijelölt gyalogos-átkelőhelyen, de csak szabad jelzésnél,
+kijelölt gyalogos-átkelőhelyen (zebra),
+útkereszteződésben (kijelölt gyalogátkelőhely hiányában is) az úton haladó és az útra bekanyarodó járművekkel szemben.
+A gyalogost csak akkor illeti meg az elsőbbség, ha a közeledő jármű féktávolságán kívül lép az úttestre.
+Figyelmeztetés
+Veszélyhelyzetet idéz elő az a gyalogos, aki féktávolságon belül lép az autó elé.
+Az 50 km/h sebességgel haladó autó egy másodperc alatt 14 méter utat tesz meg. A féktávolságot nehéz megbecsülni, de például egy 50 km/h sebességgel haladó autónak körülbelül 40 méter a féktávolsága.
+Megkülönböztető jelzést, kék, vörös fényt, hangjelzést használó jármű (például mentő, tűzoltó, rendőrségi járművek) számára a gyalogos mindig köteles elsőbbséget adni.
+Megengedett legnagyobb sebesség néhány jármű esetén
+	jármű	autópályán	autóúton	lakott területen kívül	lakott területen belül
+	személygépkocsi,
+	motorkerékpár	130 km/h	110 km/h	90 km/h	50 km/h
+	autóbusz	100 km/h	70 km/h	70 km/h	50 km/h
+	egyéb jármű és
+	járműszerelvény	80 km/h	70 km/h	70 km/h	50 km/h
+Baleseti helyzetek megelőzése
+Sötétedés után, esős időben a láthatóság érdekében a gyalogos viseljen élénk színű vagy fényvisszaverő felületű ruhát!
+Gyakran okoz balesetet a takarásból (például álló jármű mögül) a közeledő jármű elé lépő gyalogos. A gyalogosnak figyelnie kell arra, hogy a járművezető számára jól látható legyen, átkelési szándékát a vezető időben felismerje, és meg tudjon állni.
+A gyalog- és kerékpárúton közlekedés szokatlan helyzet a gyalogosoknak és kerékpárosoknak egyaránt. A közösen használt útvonalon gyalogosnak és kerékpárosnak azonosak a jogaik. Kölcsönösen figyelniük kell egymásra.
+A kerékpárút a kerékpárosok részére kijelölt, fenntartott útvonal.
+Lakott területeken gyakori a járdán vezetett kerékpárút, amely időnként a gyalogosok és kerékpárosok közötti konfliktusok helyszíne.
+Forgalmas városi utcákon gyakran okoznak problémát a járdán kerékpárral, rollerrel, elektromos rollerrel közlekedők. Kevesen ismerik és tartják be a szabályokat.
+Kerékpárral és elektromos rollerrel általában tilos a járdán közlekedni!
+Példa: A járdán vezetett kerékpárúton haladt a kerékpáros, mellette gyalogosok közlekedtek. Az egyik gyalogos váratlanul a kerékpárútra lépett, és összeütköztek. Mindketten elestek és különféle könnyű sérüléseket szenvedtek.
+Helyzetelemzés: A járdán vezetett kerékpárút baleseti veszélyforrás. A kerékpáros szabályosan közlekedett, de nem az útviszonyoknak megfelelő sebességgel. Számítania kellett volna arra, hogy bármikor elé léphet egy gyalogos és meg kell állnia. A gyalogos hibázott, mert neki tilos a kerékpárúton közlekednie. Sajnos a gyalogosok többsége nem ismeri a közlekedési szabályokat.
+Tanulság: Nem elég a szabályok ismerete és betartása, a közlekedési körülményekre és a többi közlekedőre is figyelni kell. A közlekedés résztvevői közül a gyalogosok nem kötelesek ismerni a szabályokat, ezért rájuk a kerékpárosoknak (járművezetőknek) kell vigyázniuk. A kerékpárosok és gyalogosok balesetei gyakran kerékpárúton történnek.
